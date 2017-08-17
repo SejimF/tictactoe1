@@ -4,17 +4,17 @@ public class Main
 {
 	public static void main(String[] args)
 	{
-		System.out.println("Hello World!");
+		Board boar = new Board();
+		boar.print();
 
-		Scanner input = new Scanner(System.in);
-
-		System.out.print("Enter a number: ");
-		double number1 = input.nextDouble();
-
-		System.out.print("Enter second number: ");
-		double number2 = input.nextDouble();
-
-		double product = number1 * number2;
-		System.out.printf("The product of both numbers is: %f", product);
 	}
 }
+
+
+
+	/*
+	*				Tic tac tie
+	*	boed 3x3, characters X and O. two players.
+	*	
+	*/
+	
