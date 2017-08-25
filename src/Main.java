@@ -4,8 +4,12 @@ public class Main
 {
 	public static void main(String[] args)
 	{
-		Board boar = new Board();
-		boar.print();
+		
+		Game gm = new Game();
+		
+		gm.rungame();
+
+		
 
 	}
 }
